@@ -13,3 +13,13 @@ tpls = ('bittu','achu','amma') #tuples are immutable so if we have some data whi
 print(tpls[0])
 print(type(tpls))
 #DICTIONARY
+''' list is oredered set which can be accessed with index, but what if we want to access some data which is tied to
+some key value. so in this case comes dictionary
+dictionary: consist of key value pair. where value can be accessed with his key.'''
+info = {'name':'bittu','age':24,'gender':'male'}
+print(info['name']) #with the help of key we print the value
+#SETS
+num = {1,2,3,4,5}
+odds = {1,3,5,7}
+print(num|odds) # joints 2 sets and print non repetitive values.
+print(num&odds) #intersection of 2 sets.
