@@ -17,6 +17,7 @@ print(type(tpls))
 some key value. so in this case comes dictionary
 dictionary: consist of key value pair. where value can be accessed with his key.'''
 info = {'name':'bittu','age':24,'gender':'male'}
+info = dict() #will create an empty dictionary
 print(info['name']) #with the help of key we print the value
 #SETS
 num = {1,2,3,4,5}
